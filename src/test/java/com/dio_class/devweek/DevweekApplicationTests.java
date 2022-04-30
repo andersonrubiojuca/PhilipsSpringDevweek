@@ -18,7 +18,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 @SpringBootTest
 @AutoConfigureMockMvc
 class DevweekApplicationTests {
-	private final String URL = "/regiao";
+	private final String URL = "/api/regiao";
 
 	@Autowired
 	MockMvc mockMvc;
